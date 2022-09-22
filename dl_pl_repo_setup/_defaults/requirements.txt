@@ -1,0 +1,6 @@
+fire
+ubelt
+pytorch_lightning==1.7
+ipython
+omegaconf>=2.2.3
+jsonargparse[signatures]>=4.12.0

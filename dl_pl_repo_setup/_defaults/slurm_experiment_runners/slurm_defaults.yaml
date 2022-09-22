@@ -1,0 +1,4 @@
+mem: 20G
+cpus_per_task: 32
+email: dennis.melamed@kitware.com
+
