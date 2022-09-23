@@ -1,0 +1,2 @@
+- To set up a new repo: `python setup.py /path/to/repo`
+- To resolve protobuf issue on macos, downgrade protobuf version: `pip install protobuf==3.19.4`

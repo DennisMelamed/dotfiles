@@ -21,7 +21,7 @@ class TemplateNet(pl.LightningModule):
         return {"output": output}
 
     def configure_optimizers(self):
-        optimizer = None
+        optimizer = torch.optim.SGD(self.parameters())
 
         return {
             "optimizer": optimizer,

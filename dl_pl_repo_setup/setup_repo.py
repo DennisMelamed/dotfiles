@@ -15,7 +15,7 @@ def setup(target_dir: str):
     )
 
     print("installing base pip dependencies to venv...")
-    cmd_str = f'. ./{target_dir.name}_venv && ./{target_dir.name}_venv/bin/pip install -r requirements.txt'
+    cmd_str = f'. ./{target_dir.name}_venv/bin/activate && ./{target_dir.name}_venv/bin/pip install -r requirements.txt'
     ub.cmd(cmd_str, verbose=1, shell=True, cwd=target_dir)
     print("done")
 
