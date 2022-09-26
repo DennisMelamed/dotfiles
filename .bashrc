@@ -154,4 +154,4 @@ export PATH="$PATH:/home/local/KHQ/dennis.melamed/.local/"
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(tmuxifier init -)"
 
-source kitware_functions.bashrc
+source ~/dotfiles/kitware_functions.bashrc
