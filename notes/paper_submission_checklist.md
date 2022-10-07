@@ -9,6 +9,28 @@ To be improved over time. Many items drawn from here: https://github.com/philipp
 - [ ] Check if there is a paper registration deadline, separate (before) the paper submission deadline
 - [ ] Check if there's a supplemental allowed, what is the deadline for it? 
 
+## Useful LaTeX Snippets:
+
+### Make title angry if your paper is over length
+Insert the following in your preamble:
+```
+\newcommand{\incpageref}[1]{%
+  \number\numexpr\getpagerefnumber{#1}}
+
+```
+Then replace your `\title{...}` command with (changing the 8 to the required paper length):
+```
+\ifnum8<\incpageref{END_OF_TEXT}
+    \title{\textcolor{red}{PAPER IS OVER LENGTH: \incpageref{END_OF_TEXT}}}
+\else
+    \title{Your Awesome Title}
+\fi
+```
+And add the following label to the end of your conclusion:
+```
+\label{END_OF_TEXT}
+```
+
 
 
 # Perform these checks on the final version of the paper before uploading for review

@@ -155,3 +155,4 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(tmuxifier init -)"
 
 source ~/dotfiles/kitware_functions.bashrc
+export DOCKER_BUILDKIT=1
