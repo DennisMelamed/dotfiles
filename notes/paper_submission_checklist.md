@@ -77,6 +77,7 @@ And add the following label to the end of your conclusion:
 - [ ] Are all required questions answered (e.g. agreement to review other papers)
 - [ ] All authors entered conflicts of interest into the conference system? 
 - [ ] If there are different tracks to submit to, does the one you have selected make the most sense?
+- [ ] If there are options for choosing which area of research your paper falls into, have you selected the one that makes the most sense?
 
 # Checks for camera-ready version
 - [ ] Are all of the needed author names on the paper?
