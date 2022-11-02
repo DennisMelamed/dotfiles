@@ -12,6 +12,10 @@ To be improved over time. Many items drawn from here: https://github.com/philipp
 ## Useful LaTeX Snippets:
 
 ### Make title angry if your paper is over length
+
+Careful - this doesn't quite work right if its a table/figure that is formatted to appear on a page over the limit you set, since they're floating and not tied to the END_OF_TEXT label. You should still double check how many pages the paper has :) 
+
+
 Insert the following in your preamble:
 ```
 \newcommand{\incpageref}[1]{%
