@@ -35,6 +35,18 @@ And add the following label to the end of your conclusion:
 \label{END_OF_TEXT}
 ```
 
+## Useful Command Line Snippts
+
+### grep for breaks in double blind
+If you have a series of text files (e.g. code) which you want to ensure are clean of things like emails or names, make a file `search_patterns.txt` with the author names, emails, etc. Then:
+```
+grep -R -f search_patterns.txt submission_folder
+```
+Will indicate spots you haven't sanitized.
+```
+grep -R -rl -f search_patterns.txt submission_folder| sed 's/.*/"&"/' | xargs sed -i 's/PROBLEM_TERM/OKAY_TERM/g'
+```
+Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 
 
 # Perform these checks on the final version of the paper before uploading for review
