@@ -71,6 +71,7 @@ And add the following label to the end of your conclusion:
 
 ## Supplemental PDF
 - [ ] Do any author identifiers appear anywhere in the supplemental text?
+- [ ] Are the titles on the supplemental and paper pdfs the same (up to a delta like prepending with "Supplemental to:")?
 
 ## Other supplemental material
 - [ ] Do any author identifiers appear anywhere in the supplemental material? Check READMEs, code files (via grep/fuzzy finders), video files, datasets (for binary data formats, ensure that names/hostnames/emails don't appear anywhere in the metadata)
