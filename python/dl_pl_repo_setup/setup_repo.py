@@ -7,7 +7,7 @@ import venv
 def setup(target_dir: str):
     target_dir = ub.Path(target_dir)
     print("copying files...")
-    shutil.copytree("_defaults", target_dir)
+    shutil.copytree("_defaults", target_dir, dirs_exist_ok=True)
     print("creating virtual env...")
     venv.create(
         target_dir / f"{target_dir.name}_venv",
