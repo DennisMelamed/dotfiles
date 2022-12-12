@@ -2,3 +2,4 @@ kitware_functions.bashrc
 *venv
 *pycache*
 *.log
+.DS_Store
