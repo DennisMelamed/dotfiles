@@ -1,3 +1,4 @@
+Things I've messed up, forgotten about, or done have helped me while in the process of submitting a paper. Hopefully helpful to others even if occasionally redundant or obvious. 
 To be improved over time. Many items drawn from here: https://github.com/philippbayer/submission_checklist
 
 # During writing tasks to complete
@@ -101,3 +102,25 @@ Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 - [ ] Are all acknowledgements correct? grants/scholarships/institutions/projects, along with id numbers?
 - [ ] Have you answered all the reviewers critical suggestions?
 
+# arxiv submission PDF
+## To have arxiv generate the references correctly, if using bibtex & overleaf:
+- In overleaf, go to logs & output files (next to the recompile button)
+- Scroll all the way down to "Other Logs & Files"
+- Download the `output.bbl` file
+- Rename it to be the same as your main `.tex` file
+- If you have a supplemental to upload to arxiv, make a copy of the `.bbl` file and rename that one to match your supplemental `.tex` file
+- `latexmkrc` files will probably not be handled correctly by arxiv
+- Download the source zip from overleaf (Menu > Source) and upload it to arxiv
+- Upload the (possibly multiple) `.bbl` files to arxiv too
+- This should render the references correctly for both the main paper and the supplemental
+
+## Checks
+- [ ] Verify that you are allowed to submit to a pre-print server, if your paper is under review somewhere
+- [ ] Are all mentions of the conference/journal you're submitting to removed, if the work hasn't yet been accepted/is under review?
+    - [ ] In the arxiv metadata (abstract, comments, etc)
+    - [ ] In the main paper? This could include formatting from the conference style file like line numbers, things saying "Anonymous Submission #WXYZ to Conference 2023", or other little things. Do a grep over the `.tex` file, and do a `ctrl-F` search on the arxiv generated PDF file in your browser
+    - [ ] Is the above point also true of the supplemental material? 
+- [ ] Ensure you have an ok from all authors to submit to arxiv
+- [ ] Do any parts of the paper/supplemental refere to files that aren't accessible to an arxiv user? e.g. a video/piece of code in your supplemental thats not in a publically accessible repo/website somewhere? If so, remove/edit them
+- [ ] Double check the author order is correct. 
+- [ ] Have the references rendered correctly? 

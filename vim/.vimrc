@@ -37,3 +37,4 @@ set statusline+=\ %f
 set statusline+=%=
 set statusline+=\ %{LinterStatus()}
 set laststatus=2
+syntax on

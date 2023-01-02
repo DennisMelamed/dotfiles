@@ -1,4 +1,8 @@
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 #autoload -U promptinit; promptinit
 #prompt spaceship
 eval "$(starship init zsh)"
