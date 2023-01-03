@@ -124,3 +124,5 @@ Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 - [ ] Do any parts of the paper/supplemental refere to files that aren't accessible to an arxiv user? e.g. a video/piece of code in your supplemental thats not in a publically accessible repo/website somewhere? If so, remove/edit them
 - [ ] Double check the author order is correct. 
 - [ ] Have the references rendered correctly? 
+- [ ] After you hit submit, make sure your status page on arxiv lists the submission as "processing" or "submitted".
+- [ ] After you've submitted but before the submission is announced (usually ~24 hours or so), ask someone else (like a co-author) to look over the pdf arxiv has generated and all the metadata to make sure nothing fishy has happened.
