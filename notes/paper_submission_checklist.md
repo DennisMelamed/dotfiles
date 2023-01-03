@@ -117,7 +117,7 @@ Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 ## Checks
 - [ ] Verify that you are allowed to submit to a pre-print server, if your paper is under review somewhere
 - [ ] Are all mentions of the conference/journal you're submitting to removed, if the work hasn't yet been accepted/is under review?
-    - [ ] In the arxiv metadata (abstract, comments, etc)
+    - [ ] In the arxiv metadata (abstract, comments, etc). The "comments" example text on the Arxiv form says something like "8 pages, submitted for review to X conference". Do not include which conference you're submitting to for most conferences/journals (if the paper is under review). Check the conferences author guidelines page.
     - [ ] In the main paper? This could include formatting from the conference style file like line numbers, things saying "Anonymous Submission #WXYZ to Conference 2023", or other little things. Do a grep over the `.tex` file, and do a `ctrl-F` search on the arxiv generated PDF file in your browser
     - [ ] Is the above point also true of the supplemental material? 
 - [ ] Ensure you have an ok from all authors to submit to arxiv
