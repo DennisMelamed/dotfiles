@@ -81,6 +81,14 @@ Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 - [ ] Are all axis labels named?
 - [ ] Are the captions for all figures useful?
 
+### ChatGPT/LLM-related checks
+Many of these are derived from suggestions passed around internally at Kitware.
+LLMs can be a powerful tool to improve your writing, but there are some things to be careful of:
+- [ ] If you are using an external interface (e.g. OpenAI's ChatGPT chat interface), make sure you are not sending anything proprietary/sensitive. Requests go over the network to the people hosting the LLM and its likely they keep logs. Don't tell them anything you don't want them to know/aren't allowed to share!
+- [ ] Many places you might submit to have restrictions on using LLM-generated content in your submission. Follow these rules closely.
+- [ ] If you are allowed to use LLM-generated content, ChatGPT has some [favorite phrases](https://sapling.ai/devblog/chatgpt-phrases/). While these aren't inherently bad, they are a flag that you are automatically generating content which a reviewer may not look upon favorably. Find common phrases for the particular LLM you're using - the link I included may be out-of-date/not relevant. 
+- [ ] A rule of thumb is that LLMs are 80% right. Don't trust them or use them as a crutch. Review everything for accuracy, especially if you're not an expert in the area you're writing about (this is a good rule even when not using an LLM).
+
 
 ## Supplemental PDF
 - [ ] Do any author identifiers appear anywhere in the supplemental text?
