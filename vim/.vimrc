@@ -8,8 +8,9 @@ set expandtab
 set number
 set autoindent
 nnoremap <space> za
+" 'flake8', 'pylint'],
 let g:ale_linters = {
-      \   'python': ['flake8', 'pylint'],
+      \   'python': ['ruff', 'mypy'], 
       \}
 let g:ale_fixers = {
       \    'python': ['yapf'],
@@ -38,3 +39,7 @@ set statusline+=%=
 set statusline+=\ %{LinterStatus()}
 set laststatus=2
 syntax on
+
+set foldmethod=indent
+nnoremap <space> za
+nnoremap <space> zf

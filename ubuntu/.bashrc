@@ -156,3 +156,4 @@ eval "$(tmuxifier init -)"
 
 source ~/dotfiles/kitware_functions.bashrc
 export DOCKER_BUILDKIT=1
+export ET_NO_TELEMETRY=TRUE

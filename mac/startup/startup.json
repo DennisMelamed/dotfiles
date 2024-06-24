@@ -1,0 +1,14 @@
+{
+"projects": [
+    {"name": "nest"},
+    {"name": "avit"},
+    {"name": "redForce"},
+    {
+        "name":"aibda",
+        "extra_programs":[
+            "tell application \"QGIS\" to activate",
+            "delay 10"
+        ]
+    }
+]
+}
