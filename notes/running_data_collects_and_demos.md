@@ -61,6 +61,7 @@ A bunch of these things are probably obvious. Data collects can be really comple
     - Screw-in connectors can help
 - Thin wires like to break, use stress-relief and protect any thing/fragile wiring
 - Wooden plates, brackets, and standoffs can get you pretty far in terms of a stable, consistent mounting system for sensors
+- Command strips (especially the ones with the plasticy velcro-like stuff, duolock), are an awesome choice for connecting things securely, but removeably if their alignment isn't as important. You can even use them to attach something like a wireless reciever or a dongle to the back of your laptop so you can carry them both easily.
 - CAD is your friend and is probably worth the learning curve. OpenSCAD might be a good choice if you're more of a software person than hardware
         
 
@@ -86,6 +87,10 @@ A bunch of these things are probably obvious. Data collects can be really comple
         6. etc. etc.
     - Tools like `roslaunch`, `tmux`/`tmuxinator`, and even `subprocess.Popen` in python can be useful for this
 
+- [ ] Have a way to visualize the data you're collecting.
+    - This can be as simple as `tail`-ing logs 
+
+
 # Data
 - [ ] File backups are your friend
     - External hard drives are good for onsite backups (to be performed as frequently as reasonable)
@@ -108,7 +113,9 @@ A bunch of these things are probably obvious. Data collects can be really comple
     - Repeat at least the relevant sections of your run-through if you do fix something, don't assume you fixed it correctly
 - [ ] Do make a document describing how the event should go - I organize mine as follows:
 
-### Equipment Checklist
+### Equipment Packing Checklist
+- Sensors
+- Tools
 ### Equipment Charging Checklist ("make sure the following are charging every chance you get")
 ### Experiment/demo action list
 ### Expected output files/data, backup schedule
