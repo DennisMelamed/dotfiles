@@ -80,6 +80,7 @@ Will remove `PROBLEM_TERM` and replace it with `OKAY_TERM` wherever it appears.
 - [ ] If resubmitting, have you included all suggestions you've received that seemed like good ideas? Double check emails/IMs, notes, etc.
 - [ ] Are all axis labels named?
 - [ ] Are the captions for all figures useful?
+- [ ] Check consistency of Fig. vs Figure, Sec. vs Section, etc.
 
 ### ChatGPT/LLM-related checks
 Many of these are derived from suggestions passed around internally at Kitware.
